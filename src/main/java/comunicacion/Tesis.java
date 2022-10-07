@@ -71,7 +71,7 @@ public class Tesis extends Escrito{
 	
 	public int numArgumentos() {
 		int cont = 0;
-		for(int i=0; i<10; i++) {
+		for(int i=0; i<this.argumentos.length; i++) {
 			if(this.argumentos[i]!=null) {
 				cont++;
 			}
